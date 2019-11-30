@@ -4,24 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>signup</title>
+    <link rel="stylesheet" href='styles.css'>
 </head>
 <body>
-    <div class='nav'>
-        <div class='header'><img src='clipper.png'><span class='title'>BarberShop</span></div>
-        <div class='form'>
-         <form>
-             <input type='text' placeholder="Find Barbers near you!" class='input-form'>
-             <button>Search</button>
-         </form>
-     </div>
-     <div class='user'>
-        <button class='login'>Login
-        </button>
-        <button class='signup'>Sign Up</button>
-     </div>
-    </div>
- </div>
+        <div class='nav'>
+                <div class='header'><img src='clipper.png'><span class='title'>BarberShop</span></div>
+                <div class='form'>
+                 <form>
+                     <input type='text' placeholder="Find Barbers near you!" class='input-form'>
+                     <button>Search</button>
+                 </form>
+             </div>
+             <div class='user'>
+                    <button class='signup'><a href='index.html'>Home</a>
+                    </button>
+                <button class='signup'><a href='signin.html'>Login</a>
+                </button>
+                <button class='signup'><a href='signup.html'>Sign Up</a></button>
+             </div>
+            </div>
+    <main>
+
+        <div>
+
+            <div class='container'>
+
+                    <form class='center-form signup-form'>
+
+                        <h3>USER SIGN IN</h3>
+
+
+
+                        <label for="email">Email Address</label><input type="email" name="email" placeholder="Enter Email Address">
+
+
+
+                        <label for="password">Password</label>
+
+                            <input type="password" name="password" class='signup-input' placeholder="Enter Password">
+
+                        
+
+                            <span class='light-weight'><a href='reset.html'>Forgot password?</a></span>
+
+
+
+                            <button class='login'><a href='homepage.html'>LOG IN</a></button>
+
+                            <hr>
+
+                            <span class='light-weight'>Don't have an account?<a href='signup.html'> Sign up</a>
+
+                     </form>
+
+             </div>
+
+        </div>
+    </main>
+
+
  <footer>BarberShop Copyright 2019</footer>
 </body>
 </html>
